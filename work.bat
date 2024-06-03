@@ -1,0 +1,2 @@
+@REM Running node server in multiple tabs in different folders
+wt -p "Windows PowerShell" -d "<PATH-TO-PROJECT>" cmd /k "nvs use 20 & code . & yarn run dev" ; new-tab -p "Windows PowerShell" -d "<PATH-TO-PROJECT>" cmd /k "nvs use 20 & code . & yarn run dev"; new-tab -p "Windows PowerShell" -d "<PATH-TO-PROJECT>" cmd /k "nvs use 20 & code . & yarn run dev"
